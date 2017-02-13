@@ -1,0 +1,66 @@
+html {
+  margin: 0;
+  padding: 0;
+	min-height:100%;
+  /*background: url(envelope.svg) no-repeat center center fixed;*/
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ font-family: 'Homemade Apple', cursive;
+}
+
+body {
+  	min-height:100%;
+}
+
+.border {
+    position:fixed;
+    z-index: 10;
+    }
+
+.b {
+  bottom: 0px;
+  padding: 0.5% 0;
+  margin-right: 1.5%;
+  width: 98%;
+}
+
+.t {
+  /*padding: 0.2% 0;*/
+  margin-right: 1.5%;
+  width: 98%;
+}
+
+.r{
+  right: 0px;
+  height: 98%;
+  padding: 4% 0.5%;
+}
+
+.l {
+  left: 0px;
+  height: 98%;
+  padding: 4% 0.5%;
+}
+
+#pink-paper {
+  width: 60%;
+  height: auto;
+}
+
+#letter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#letter p {
+  position: absolute;
+  width: 50%;
+  top: 20%;
+}
+
+.hidden {
+  display: none;
+}

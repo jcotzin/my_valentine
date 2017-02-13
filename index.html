@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Jess Loves Bruce</title>
+  </head>
+  <body>
+
+<div id="letter" style="display:none">
+  <img src="pinkPaper.jpg" id="pink-paper">
+  <p>2/13/2017<br><br>My Darling Chan,<br><br>I would first like you to know that this is not my true handwriting, but rather a very neat google font! Second, you should also know that I love you very much. I love you like I love cookies and ice cream when I've had the marijuana. The last thing you should know is that this letter is both a Valentine AND four year anniversary letter. So don't expect two letters, chan.<br><br>I can't wait for our camping trip and eating hot dogs on a log somewhere with you and Zuko, and I can't wait for of our upcoming trips. But what I reeeeeeally can't wait for is mabu to come home and kiss me today!<br><br>Love you lots, chan face.<br><br><span style="margin-left:20%;">Love,<br><span style="margin-left:23%">Yabu</p></span>
+</div>
+
+<div id="envelope-container">
+  <img src="bottom-border.svg" class="border b"/>
+  <img src="border-left.svg" class="border l"/>
+  <img src="border-top.svg" class="border t"/>
+  <img src="border-right.svg" class="border r"/>
+  <img src="envelope.svg" style="position:fixed">
+</div>
+
+  </body>
+</html>
+
+<script>
+  // const openUp = document.querySelector('html');
+  // openUp.addEventListener('click', function() {
+  //   alert('hello');
+  // });
+
+  var openPage = document.querySelector('html');
+
+  openPage.addEventListener('click', function() {
+
+    document.getElementById('letter').style.display = "flex";
+    document.getElementById('envelope-container').className = "hidden";
+
+  });
+
+</script>
